@@ -15,7 +15,7 @@ para poder modificar el programa y pueda correr, debe modificar el archivo web.p
 - En la linea 68: return  redirect('http://localhost:5600/?password=040405')
 (se modifica localhost)
 
-- En el aws modificar el security group habilitando el puerto 8080 y el puerto 5600
+- En el aws modificar el security group habilitando el puerto 80 y el puerto 5600
 
 ## Ejecutar la pagina
 se debe actualizar el repositorio de paquetes e instalar el docker-compose junto con dos imágenes, mysql y ubuntu, finalmente, ejecutará el archivo docker-compose.yml, que creará tres contenedores.
@@ -23,6 +23,6 @@ se debe actualizar el repositorio de paquetes e instalar el docker-compose junto
 
 ## Final
 
-Ingresar la IP publica con el puerto :8080 y le aparecerá la pagina, cuando ingrese un usuario lo redireccionara a la pagina de https://siata.gov.co/siata_nuevo/ de lo contrario lo redireccionara a la pagina de la upb
+Ingresar la IP publica con el puerto :80 y le aparecerá la pagina, cuando ingrese un usuario lo redireccionara a la pagina de https://siata.gov.co/siata_nuevo/ de lo contrario lo redireccionara a la pagina de la upb
 
 
